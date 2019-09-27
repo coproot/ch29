@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE foo [
-  <!ENTITY xxe SYSTEM “file:///.”>
+  <!ENTITY xxe SYSTEM "file:///.">
 ]>
 <rss version="2.0">
     <channel>
@@ -9,7 +9,7 @@
         <description>Exemple de flux RSS pour XML Facile!</description>
         <item>
             <title>&xxe;</title>
-            <description>Exemple du jour pour XML Facile!</description>
+            <description>Exemple pour XML Facile!</description>
         </item>
     </channel>
 </rss>
